@@ -99,5 +99,7 @@ i {
   border-radius: 2rem;
   background-color: white;
   color: #303030;
+  -webkit-box-shadow: #303030 8px 8px 25px 3px;
+          box-shadow: #303030 8px 8px 25px 3px;
 }
 /*# sourceMappingURL=styles.css.map */
