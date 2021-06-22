@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "bellota";
+  src: url("assets/bellota/Bellota-Regular.otf") format("opentype");
+}
+
+.navbar {
+  background-color: #303030;
+  font-family: "bellota";
+}
+
+.navbar .navbar-item {
+  color: white;
+}
+
+.hero {
+  font-family: "bellota";
+  background-color: #0d8187;
+}
+
+.hero .contact {
+  font-family: "bellota";
+}
+
+.hero .form {
+  font-family: "bellota";
+  font-weight: bold;
+}
+
+.hero .rounded {
+  border-radius: 1rem;
+  -webkit-box-shadow: 3px 3px 5px #303030;
+          box-shadow: 3px 3px 5px #303030;
+}
+
+.hero .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .submit {
+  background-color: #0d8187;
+  color: white;
+}
+
+#honey {
+  display: none;
+}
+
+.footer {
+  background-color: #303030;
+  color: white;
+}
+
+i {
+  margin-right: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.answer {
+  background-color: #0d8187;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 81.9vh;
+}
+
+.answer .bubble {
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: white;
+  color: #303030;
+}
+/*# sourceMappingURL=styles.css.map */

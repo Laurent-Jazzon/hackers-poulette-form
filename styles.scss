@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "bellota";
+    src: url("assets/bellota/Bellota-Regular.otf") format("opentype");
+}
+$font: "bellota";
+$green: #0d8187;
+$grey: #303030;
+
+// NAVBAR
+.navbar {
+    background-color: $grey;
+    font-family: $font;
+    .navbar-item {
+        color: white;
+    }
+}
+
+// MAIN
+.hero {
+    font-family: $font;
+    background-color: $green;
+    .contact {
+        font-family: $font;
+    }
+    .form {
+        font-family: $font;
+        font-weight: bold;
+    }
+    .rounded {
+        border-radius: 1rem;
+        box-shadow: 3px 3px 5px $grey;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .submit {
+        background-color: $green;
+        color: white;
+    }
+}
+#honey {
+    display: none;
+}
+
+// FOOTER
+.footer {
+    background-color: $grey;
+    color: white;
+}
+
+i {
+    margin-right: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+// ANSWER
+.answer {
+    background-color: $green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 81.9vh;
+    .bubble {
+        padding: 2rem;
+        border-radius: 2rem;
+        background-color: white;
+        color: $grey;
+    }
+}
